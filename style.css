@@ -1,0 +1,31 @@
+/*CSS reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+li.nav-link {
+  display: inline-block;
+}
+nav#navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+/* Landing styles */
+
+#landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Section styles */
+section {
+  min-height: 100vh;
+  background-color: purple;
+}
+section:nth-of-type(even) {
+  background-color: darkblue;
+}
